@@ -1,0 +1,41 @@
+body {
+    position: relative;
+    margin: 0px;
+}
+
+.top-bar {
+    position: relative;
+    background-color: rgb(66, 66, 66);
+    height: 150px;
+    color: rgb(66, 66, 66);
+    top: 0px;
+}
+
+.left-bar {
+    position: absolute;
+    background-color: rgb(216, 216, 216);
+    width: 160px;
+    height: 900px;
+    color: rgb(216, 216, 216);
+}
+
+.right-bar {
+    position: absolute;
+    background-color: rgb(216, 216, 216);
+    right: 0;
+    width: 160px;
+    height: 900px;
+    color: rgb(216, 216, 216);
+}
+
+.bottom-bar {
+    position: fixed;
+    display: inline-block;
+    align-self: flex-end;
+    background-color: rgb(0, 0, 0);
+    bottom: 0vw;
+    height: 100px;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    z-index: -1;
+}
