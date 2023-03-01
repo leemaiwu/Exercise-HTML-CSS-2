@@ -1,0 +1,90 @@
+body {
+    position: relative;
+    margin: 20px;
+}
+
+.section-one {
+    position: relative;
+    border: 5px solid black;
+    height: 210px;
+    width: 100%;
+    z-index: -1;
+    right: 5px;
+}
+
+.purple-rectangle {
+    position: relative;
+    background-color: rgb(117, 0, 201);
+    height: 150px;
+    width: 50px;
+    top: 50px;
+    left: 10px;
+    z-index: 1;
+}
+
+.green-rectangle {
+    position: relative;
+    background-color: rgb(0, 127, 28);
+    height: 190px;
+    width: 400px;
+    left: 110px;
+    top: -140px;
+    z-index: 1;
+}
+
+.blue-circle {
+    position: relative;
+    background-color: rgb(108, 209, 255);
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    left: 550px;
+    top: -330px;
+    z-index: 1;
+}
+
+.section-two {
+    position: relative;
+    border: 5px dotted black;
+    height: 270px;
+    width: 100%;
+    z-index: -1;
+    top: 20px;
+    right: 5px;
+}
+
+.yellow-rectangle {
+    position: relative;
+    background-color: rgb(252, 249, 180);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.80);
+    height: 180px;
+    width: 90%;
+    left: 50px;
+    right: -30px;
+    top: 40px;
+    z-index: 1;
+}
+
+.section-three {
+    position: relative;
+    margin: auto;
+    border: 2px solid rgb(232, 232, 232);
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.283);
+    height: 270px;
+    width: 50%;
+    z-index: -1;
+    top: 50px;
+    right: 5px;
+}
+
+.three-words {
+    text-align: center;
+    padding: 18% 5% 50% 45%;
+    width: 120px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    color: rgb(0, 0, 95);
+    font-size: 25px;
+    font-weight: 18px;
+}
